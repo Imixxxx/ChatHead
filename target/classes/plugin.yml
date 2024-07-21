@@ -1,0 +1,9 @@
+name: ChatHead
+version: '1.0-SNAPSHOT'
+main: com.chathead.ChatHead
+api-version: '1.20'
+commands:
+  chathead:
+    permission: chathead.admin
+    permission-message: "§4You cannot use this command."
+    usage: "§c/chathead <player-for-head> [<player-to-send>] (leave blank to send to yourself)"
